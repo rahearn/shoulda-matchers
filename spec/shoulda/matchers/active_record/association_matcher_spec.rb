@@ -264,6 +264,7 @@ describe Shoulda::Matchers::ActiveRecord::AssociationMatcher do
       define_model :child, :ancestor_id => :integer do
         belongs_to :ancestor, :inverse_of => :children, :class_name => :Parent
       end
+
       define_model :parent do
         has_many :children, :inverse_of => :ancestor
       end

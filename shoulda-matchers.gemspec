@@ -19,14 +19,15 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency('activesupport', '>= 3.0.0')
-  s.add_dependency('bourne',        '~> 1.2.0')
+  s.add_dependency('bourne', '~> 1.3')
 
-  s.add_development_dependency('appraisal',   '~> 0.4')
+  s.add_development_dependency('appraisal')
   s.add_development_dependency('aruba')
-  s.add_development_dependency('bundler',     '~> 1.1')
-  s.add_development_dependency('cucumber',    '~> 1.1')
-  s.add_development_dependency('rails',       '~> 3.0')
-  s.add_development_dependency('rake',        '>= 0.9.2')
-  s.add_development_dependency('rspec-rails', '~> 2.8.1')
+  s.add_development_dependency('bundler')
+  s.add_development_dependency('cucumber')
+  s.add_development_dependency('rails')
+  s.add_development_dependency('rake')
+  s.add_development_dependency('rspec')
+  s.add_development_dependency('rspec-rails')
   s.add_development_dependency('strong_parameters')
 end
